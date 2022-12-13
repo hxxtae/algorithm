@@ -1,5 +1,6 @@
 "use strict";
 
+// 1.
 function solution(s) {
   const visitedHistoryArr = Array.from({length: 26}, () => -1);
   const resultArr = s.split('').map((char, charIdx) => {
@@ -17,4 +18,6 @@ function solution(s) {
   return resultArr;
 }
 
-// 해시를 사용해서도 풀어보기
+// 2. 
+
+// NOTE: 해시 사용

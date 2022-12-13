@@ -22,4 +22,4 @@ function solution(s) {
   return map.get('this') ? count + 1 : count;
 }
 
-// 해시 사용
+// NOTE: 해시 사용
