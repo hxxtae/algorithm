@@ -5,7 +5,7 @@ function solution(number) {
   function findSamChongSa(deep, sumArr) {
       if(sumArr.length === 3) {
           const sum = sumArr.reduce((prev, curr) => prev + curr, 0);
-          if(sum === 0) count = ++count;
+          if(sum === 0) count++;
           return;
       }
   
