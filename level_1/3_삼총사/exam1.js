@@ -19,4 +19,4 @@ function solution(number) {
   return count;
 }
 
-// NOTE: 재귀 사용
+// NOTE: 재귀, 스택 사용
