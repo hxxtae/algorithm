@@ -48,3 +48,4 @@ function minLength3(id) {
 }
 
 // NOTE: 정규표현식 사용
+// 2021 KAKAO BLIND RECRUITMENT

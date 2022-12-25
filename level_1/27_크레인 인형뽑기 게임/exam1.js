@@ -25,6 +25,7 @@ function solution(board, moves) {
 }
 
 // NOTE: 스택 사용
+// 2019 카카오 개발자 겨율 인턴십
 
 // 2. 다르게 풀이
 

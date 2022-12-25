@@ -53,3 +53,4 @@ function solution(numbers, hand) {
 }
 
 // NOTE: 해시 사용
+// 2020 카카오 인턴십
