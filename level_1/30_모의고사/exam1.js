@@ -16,5 +16,6 @@ function solution(answers) {
   return [...map].filter(([student, count]) => maxCount <= count).map(([student, count]) => student);
 }
 
-// NOTE:
+// NOTE: 완전탐색
+
 // 나눗셈의 나머지를 활용하여 비교하는 배열의 idx를 반복할 수 있다.

@@ -3,20 +3,20 @@ function solution(n, lost, reserve) {
   const newLost = lost.filter((v) => !reserve.includes(v)).sort((a, b) => a - b);
   const map = new Map();
   for(let student = 1; student <= n; student++) {
-      map.set(student, newLost.includes(student) ? 0 : newReserve.includes(student) ? 2 : 1);
+    map.set(student, newLost.includes(student) ? 0 : newReserve.includes(student) ? 2 : 1);
   }
   for(let student of newLost) {
-      if(map.get(student - 1) > 1) {
-          map.set(student - 1, (map.get(student - 1) - 1));
-          map.set(student, 1);
-      }
-      else if(map.get(student + 1) > 1) {
-          map.set(student + 1, (map.get(student + 1) - 1));
-          map.set(student, 1);
-      }
+    if(map.get(student - 1) > 1) {
+      map.set(student - 1, (map.get(student - 1) - 1));
+      map.set(student, 1);
+    }
+    else if(map.get(student + 1) > 1) {
+      map.set(student + 1, (map.get(student + 1) - 1));
+      map.set(student, 1);
+    }
   }
   return  [...map].reduce((result, [student, clothesNum]) => {
-      return clothesNum > 0 ? result += 1 : result;
+    return clothesNum > 0 ? result += 1 : result;
   }, 0);
 }
 
