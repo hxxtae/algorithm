@@ -7,3 +7,5 @@ function solution(array, commands) {
   }
   return result;
 }
+
+// NOTE: 정렬 사용
