@@ -86,6 +86,13 @@
 
 <br>
 
+## Level 2
+
+| Title                   | Access    | Difficulty | BookMark | Note |
+| ----------------------- | --------- | ---------- | -------- | ---- |
+| 1.최댓값과 최솟값        |           | 🟢         |          |      |
+| 2.JadenCase 문자열 만들기| RegExp    | 🟢         |          |      |
+
 ## 참고
 
 [programmers](https://school.programmers.co.kr/learn/challenges)
