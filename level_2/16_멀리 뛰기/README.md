@@ -26,6 +26,8 @@
 
 ## 입출력
 
+<img src="./exam_1.png" style="width: 500px" alt="exam_1" />
+
 ---
 
 **Ref**: https://school.programmers.co.kr/learn/courses/30/lessons/12914
