@@ -123,6 +123,7 @@
 | 31.[3차] 압축          | Hash     | 🟡         |          | 2018 KAKAO BLIND RECRUITMENT |
 | 32.피로도              | DFS      | 🟡         |          |        |
 | 33.[3차] n진수 게임    | Stack    | 🟢         |          | 2018 KAKAO BLIND RECRUITMENT |
+| 34.오픈채팅방          | Hash     | 🟢         |          | 2019 KAKAO BLIND RECRUITMENT |
 
 ## 참고
 
