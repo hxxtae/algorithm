@@ -124,6 +124,11 @@
 | 32.피로도              | DFS      | 🟡         |          |        |
 | 33.[3차] n진수 게임    | Stack    | 🟢         |          | 2018 KAKAO BLIND RECRUITMENT |
 | 34.오픈채팅방          | Hash     | 🟢         |          | 2019 KAKAO BLIND RECRUITMENT |
+| 35.주차 요금 게산      | Hash     | 🟡         |          | 2022 KAKAO BLIND RECRUITMENT |
+| 36.할인 행사           | Hash     | 🟢         |          |        |
+| 37.땅따먹기            | DP       | 🟡         | ✔       |        |
+| 38.스킬트리            | Linked   | 🟢         | ✔       |        |
+| 39.방문 길이           | Hash     | 🟡         | ✔       |        |
 
 ## 참고
 
