@@ -129,6 +129,9 @@
 | 37.땅따먹기            | DP       | 🟡         | ✔       |        |
 | 38.스킬트리            | Linked   | 🟢         | ✔       |        |
 | 39.방문 길이           | Hash     | 🟡         | ✔       |        |
+| 40.[1차]프렌즈4블록    | -        | 🟢         |         | 2018 KAKAO BLIND RECRUITMENT |
+| 41.[3차]파일명 정렬    | Sort     | 🟢         | ✔       | 2018 KAKAO BLIND RECRUITMENT |
+| 42.모음사전            | Search   | 🟢         |         |        |
 
 ## 참고
 
