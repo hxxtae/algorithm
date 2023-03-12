@@ -142,7 +142,14 @@
 | 50.124 나라의 숫자    | 진수 변환 | 🔴         |         |        |
 | 51.큰 수 만들기       | Stack    | 🟢         |         |        |
 | 52.삼각 달팽이        | Hash     | 🟡         |         |        |
-
+| 53.롤케이크 자르기    | Hash     | 🟢         |         |        |
+| 54.메뉴 리뉴얼        | -        | 🔴         |         | 2021 KAKAO BLIND RECRUITMENT |
+| 55.뒤에 있는 큰 수 찾기| Stack   | 🔴         | ✔       |        |
+| 56.숫자 변환하기      | BFS      | 🔴         | ✔       |        |
+| 57.괄호 변환          | -        | 🟡         |         | 2020 KAKAO BLIND RECRUITMENT |
+| 58.두 큐 합 같게 만들기| Two Point | 🟢        |         | 2022 KAKAO TECH INTERNSHIP |
+| 59.[3차] 방금그곡     | -        | 🟢         |         | 2018 KAKAO BLIND RECRUITMENT |
+| 60.수식 최대화        | DFS      | 🟢         |         | 2020 카카오 인턴십 |
 
 ## 참고
 
