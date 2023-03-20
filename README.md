@@ -5,7 +5,7 @@
 <br>
 
 <p style="color: #999999; font-size: 10px">
-  easy 🟢 / normal 🟡 / hard: 🔴
+  easy 🟢 / normal 🟡 / hard 🔴
   <br>
  (난이도는 정답율을 참고하여 작성되었습니다.)
 </p>
@@ -150,6 +150,10 @@
 | 58.두 큐 합 같게 만들기| Two Point | 🟢        |         | 2022 KAKAO TECH INTERNSHIP |
 | 59.[3차] 방금그곡     | -        | 🟢         |         | 2018 KAKAO BLIND RECRUITMENT |
 | 60.수식 최대화        | DFS      | 🟢         |         | 2020 카카오 인턴십 |
+| 61.행렬 테두리 회전하기| -        | 🟡         |         |         |
+| 62.택배상자           | Stack    | 🟢         |         |         |
+| 63.줄 서는 방법       | DP, 수열  | 🔴         |         |         |
+| 64.배달              | 다익스트라 | 🔴         | ✔       |         |
 
 ## 참고
 
