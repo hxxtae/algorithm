@@ -33,3 +33,13 @@ function solution2(score) {
 
 // [접근]
 // indexOf를 활용하여 등수 매기기
+
+// 풀이 3.
+function solution(score) {
+  const ave = (list) => list.reduce((sum, curr) => sum + curr) / list.length;
+  const aveList = score.map((list) => ave(list));
+  return aveList.map((numA) => aveList.filter((numB) => numA < numB).length+1);
+}
+
+// [접근]
+// filter를 활용하여 등수 매기기
