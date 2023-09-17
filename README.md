@@ -2,6 +2,11 @@
 
 개인적으로 풀이한 알고리즘 및 자료구조를 정리하는 저장소 입니다.
 
+_💡 모든 문제에 대한 저작권은 아래 두 곳에 있습니다._
+
+- [Programmers](https://school.programmers.co.kr/learn/challenges)
+- [Baekjoon Online Judge](https://www.acmicpc.net/)
+
 <br>
 
 <p style="color: #999999; font-size: 10px">
@@ -9,6 +14,18 @@
   <br>
  (난이도는 정답율을 참고하여 작성되었습니다.)
 </p>
+
+<br>
+
+# Programmers
+
+- [Level 0](#level-0)
+- [Level 1](#level-1)
+- [Level 2](#level-2)
+- [Level 3](#level-3)
+- [Level 0](#pccp)
+
+<br>
 
 ## Level 0
 
@@ -262,6 +279,20 @@
 | 1.외톨이 알파벳          | -              | 🟡         |          |      |
 | 2.채육대회               | DFS            | 🟢         |          |      |
 
-## 참고
+<br>
 
-[programmers](https://school.programmers.co.kr/learn/challenges)
+# BOJ
+
+- [DFS/BFS](#dfsbfs)
+
+<br>
+
+## DFS/BFS
+
+| Title                  | Access                  | Difficulty | BookMark | Level |
+| ---------------------- | ----------------------- | ---------- | -------- | ----- |
+| 1.DFS와 BFS            | 그래프 탐색 (정점/간선)   | 🟡        | ✔        | 실버2 |
+| 2.바이러스              | 그래프 탐색 (정점/간선)  | 🟡        | ✔        | 실버3 |
+| 3.단지번호붙이기        | 그래프 탐색              | 🟡        | ✔        | 실버1 |
+
+
