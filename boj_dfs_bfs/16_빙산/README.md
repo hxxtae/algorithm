@@ -1,8 +1,8 @@
 # 빙산
 
-### Level: 골드2
+### Level: 골드4
 
-<img src="https://d2gd6pc034wcta.cloudfront.net/tier/14.svg" style="width: 20px" />
+<img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" style="width: 20px" />
 
 <br>
 
