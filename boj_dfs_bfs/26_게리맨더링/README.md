@@ -20,7 +20,10 @@
 
 아래 그림은 6개의 구역이 있는 것이고, 인접한 구역은 선으로 연결되어 있다.
 
-<img src="./exam_1.png" style="width: 250px; display: block; margin: 0 auto" alt="exam_1" />
+<div align="center">
+  <img src="./exam_1.png" style="width: 250px" alt="exam_1" />
+</div>
+
 <br>
 
 아래는 백준시를 두 선거구로 나눈 4가지 방법이며, 가능한 방법과 불가능한 방법에 대한 예시이다.
