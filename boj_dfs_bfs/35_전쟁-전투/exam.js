@@ -53,9 +53,58 @@ function solution1(m, n, field) {
 }
 
 // -------------
+// 풀이 (BFS)
+// -------------
+function solution2(m, n, field) {
+  const visited = Array.from({ length: m }, () => Array(n).fill(0));
+
+  const findWay = (y, x, way) => {
+    const X = [1, 0, -1, 0];
+    const Y = [0, 1, 0, -1];
+    return [y + Y[way], x + X[way]];
+  }
+
+  const bfs = (startY, startX, kind) => {
+    const queue = [[startY, startX]];
+    visited[startY][startX] = 1;
+
+    let cnt = 1;
+    while (queue.length) {
+      const [y, x] = queue.shift();
+
+      for (let i = 0; i < 4; i++) {
+        const [nextY, nextX] = findWay(y, x, i);
+        if (nextY >= 0 && nextX >= 0 && nextY < m && nextX < n) {
+          if (field[nextY][nextX] === kind && !visited[nextY][nextX]) {
+            visited[nextY][nextX] = 1;
+            queue.push([nextY, nextX]);
+            cnt++;
+          }
+        }
+      }
+    }
+    return cnt;
+  }
+
+  const result = [0, 0];  // [total_w_team_power, total_b_team_power]
+  for (let r = 0; r < m; r++) {
+    for (let c = 0; c < n; c++) {
+      if (!visited[r][c]) {
+        visited[r][c] = 1;
+        const count = bfs(r, c, field[r][c]);
+        field[r][c] === 'W' && (result[0] += (count ** 2));
+        field[r][c] === 'B' && (result[1] += (count ** 2));
+      }
+    }
+  }
+  return result.join(' ');
+}
+
+// -------------
 // 출력
 // -------------
 const result1 = solution1(M, N, FIELD);
+const result2 = solution2(M, N, FIELD);
 console.log(result1);
-
+console.log(result2);
 
