@@ -41,7 +41,7 @@ label: true
 
 **예제 입력1 & 에제 출력1**
 
-~~~txt
+~~~text
 4 5 1
 1 2
 1 3
@@ -51,7 +51,7 @@ label: true
 
 ~~~
 
-~~~txt
+~~~text
 1 2 4 3
 1 2 3 4
 
@@ -59,7 +59,7 @@ label: true
 
 **예제 입력2 & 에제 출력2**
 
-~~~txt
+~~~text
 5 5 3
 5 4
 5 2
@@ -69,7 +69,7 @@ label: true
 
 ~~~
 
-~~~txt
+~~~text
 3 1 2 5 4
 3 1 4 2 5
 
@@ -77,13 +77,13 @@ label: true
 
 **예제 입력3 & 에제 출력3**
 
-~~~txt
+~~~text
 1000 1 1000
 999 1000
 
 ~~~
 
-~~~txt
+~~~text
 1000 999
 1000 999
 
@@ -93,7 +93,7 @@ label: true
 
 ## 풀이
 
-~~~js
+~~~javascript
 const fs = require('fs');
 const stdin = fs.readFileSync('./input_1.txt').toString().trim();
 
