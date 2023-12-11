@@ -7,17 +7,9 @@ level: 실버2
 label: true
 ---
 
-# DFS와 BFS
-
-### Level: 실버2
-
-<img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" style="width: 20px" />
-
-<br>
-
-| 시간 제한 | 메모리 제한 |
-| -------- | ---------- |
-| 2 초 | 128 MB |
+| 시간 제한 | 메모리 제한 | 레벨 |
+| -------- | ---------- | ---- |
+| 2 초 | 128 MB | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" style="width: 20px" /> |
 
 <br>
 
