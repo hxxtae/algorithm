@@ -1,9 +1,9 @@
 ---
 title: "DFS와 BFS"
 date: "2023-12-09T12:24:00"
-description: "일반적인 DFS와 BFS 유형의 문제"
+description: ""
 algorithm: ["DFS", "BFS", "그래프 탐색-정점/간선"]
-level: 실버2
+level: Silver2
 label: true
 ---
 
