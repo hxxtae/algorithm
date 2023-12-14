@@ -1,6 +1,7 @@
 ---
 title: "DFS와 BFS"
 date: "2023-12-09T12:24:00"
+category: "boj"
 description: ""
 algorithm: ["DFS", "BFS", "그래프 탐색-정점/간선"]
 level: Silver2
