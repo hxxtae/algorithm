@@ -1,5 +1,5 @@
 const fs = require('fs');
-const stdin = fs.readFileSync('./input_4.txt').toString().trim();
+const stdin = fs.readFileSync('./input_1.txt').toString().trim();
 
 // -------------
 // 입력
@@ -48,10 +48,10 @@ function solution(n, m, maps) {
 }
 
 // -------------
-// 풀이 (DFS)
+// 풀이 (DFS) - 틀림..
 // -------------
 function solution(n, m, maps) {
-  const visitedZero = Array.from({ length: n }, () => Array(m).fill([]));
+  const visitedZero = Array.from({ length: n }, () => Array.from({ length: m }, () => 0));
 
   const findWay = (y, x, way) => {
     const X = [1, 0, -1, 0];
@@ -64,7 +64,7 @@ function solution(n, m, maps) {
     for (let i = 0; i < 4; i++) {
       const [nextY, nextX] = findWay(y, x, i);
       if (nextY >= 0 && nextX >= 0 && nextY < n && nextX < m) {
-        if (maps[nextY][nextX] === "0" && visitedZero[nextY][nextX].length === 0) {
+        if (maps[nextY][nextX] === "0" && visitedZero[nextY][nextX] === 0) {
           visitedZero[nextY][nextX] = arr;
           cnt = dfs(nextY, nextX, cnt + 1, arr);
         }
@@ -77,7 +77,7 @@ function solution(n, m, maps) {
   let zeroChk = 1; // 구분번호
   for (let r = 0; r < n; r++) {
     for (let c = 0; c < m; c++) {
-      if (maps[r][c] === "0" && visitedZero[r][c].length === 0) {
+      if (maps[r][c] === "0" && visitedZero[r][c] === 0) {
         const arr = [zeroChk];
         visitedZero[r][c] = arr; // 객체의 참조무결성 특성 활용!
         const count = dfs(r, c, 1, arr);
