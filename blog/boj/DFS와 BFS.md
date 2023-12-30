@@ -8,7 +8,7 @@ level: Silver2
 label: true
 ---
 
-<img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" style="width: 20px" />
+<img class="left" src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" style="width: 20px" />
 
 ## 문제 설명
 
